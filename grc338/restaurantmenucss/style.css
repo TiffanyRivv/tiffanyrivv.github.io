@@ -17,7 +17,6 @@ body {
 h1 {
 	background-color: rgb(154, 154, 167);
 	color: rgb(240, 240, 240); /* Same as body background. */
-	line-height: 3rem;
 	font-size: 3em;
 	padding: 1em .5em 1em; /* You want three values. */
 	font-weight: bold;
