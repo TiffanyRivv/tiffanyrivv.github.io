@@ -282,9 +282,10 @@ input:nth-of-type(9):checked~main figure:nth-of-type(9) {
     opacity: 1;
 }
 
-input {
+input.photo {
     display: none;
 }
+
 div.photogallery nav img {
     margin: auto;
     object-fit: cover;
