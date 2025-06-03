@@ -12,6 +12,7 @@ body {
 
 div.container,
 div.home-container {
+    padding: 1rem;
     max-width: 40em;
     margin: auto;
 }
@@ -30,8 +31,7 @@ header {
 }
 
 h1 {
-    margin: auto;
-    padding: 1rem;
+    margin: 1rem 0rem;
     width: 11rem;
 }
 
@@ -48,6 +48,15 @@ h2.newsletter-h2 {
     color: #184644;
 }
 
+label {
+    color: #184644;
+}
+
+section.comments label {
+    font-size: 1.3rem;
+    color: #184644;
+}
+
 h2.newsletter {
     font-size: 1.3rem;
     margin: 1rem 0rem;
@@ -61,7 +70,6 @@ p {
     font-size: 1.1rem;
     margin: 0 0.5rem 2rem;
     color: #184644;
-    line-height: 1.25rem;
 }
 
 a {
@@ -156,9 +164,7 @@ footer p {
         margin-left: 0;
     }
 
-    h1 {
-        margin: auto;
-    }
+ 
 }
 
 
@@ -384,4 +390,77 @@ div.photogallery nav img {
     section.secondary a p {
         flex: 0 0 4rem;
     }
+}
+
+@media screen and (prefers-color-scheme: dark) {
+
+    body {
+        background-color:#184644;
+    }
+
+    h1 {  
+        background-image: url("The Peel Logo-Light.svg");  
+        background-repeat: no-repeat;  
+        background-size: contain;  
+    }  
+
+    h1 img {  
+        opacity: 0;  
+    }  
+
+    nav ul li a {
+        color: #EBEFEE;
+    }
+    nav ul li a:hover {
+        color: #A3D9D5;
+    }
+    p{
+        color: #EBEFEE;
+    }
+    aside {
+        background: #306163;
+        padding: 0.5rem;
+    }
+    section.tertiary h2 {
+        color:#A3D9D5;
+        border-color:#184644 ;
+    }
+
+    section.secondary h2 {
+        color: #A3D9D5;
+    } 
+
+    h2 {
+        color: #A3D9D5;
+    }
+    
+    h2.newsletter-h2 {
+        color: #A3D9D5;
+    }
+    
+    h2.newsletter {
+        color: #A3D9D5;
+    }
+
+    aside section.secondary h2 {
+        color: #A3D9D5;
+    }
+    section.comments label {
+
+        color: #A3D9D5;
+    }
+    label {
+        color: #EBEFEE;
+    }
+    figcaption {
+        color: #A3D9D5;
+    }
+    .subscription section {
+        background-color: #306163;
+    }
+    footer {
+        background: #306163;
+    }
+   
+ 
 }
