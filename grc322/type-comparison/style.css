@@ -86,11 +86,6 @@ div.grid {
 	grid-template-columns: 50% 50%;
 	grid-column-gap: 1em;
 }
-div.griddy {
-	display: grid;
-	grid-template-columns: 33% 33% 33%;
-	grid-column-gap: 1em;
-}
 figcaption {
 	margin: 1em 0em;
 }
